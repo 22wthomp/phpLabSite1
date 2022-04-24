@@ -34,7 +34,6 @@ if (isset($_POST['login']))
 ?>
 </head>
 <body>
-<?php readfile('library/header.html'); ?>
 <h2>do not use real passwords</h2>
 <form method='POST'>
 <label for='username'>Username:</label>
@@ -42,7 +41,6 @@ if (isset($_POST['login']))
 <label for='password'>Password:</label>
 <input type='password' name='password'><br>
 <input type='submit' name='login' value='login'><br>
-username is<B> MrCoo195</B> password is<B> EpicPassword</B>
-<?php readfile('library/footer.html'); ?>
+username is<B> MrCoo195</B> password is<B> EpicPassword</B><br><br>
 </body>
 </html>
