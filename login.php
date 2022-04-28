@@ -8,7 +8,7 @@ csc155 -->
 <?php
 function checker($username,$password)
 {
-	if($username == "MrCool95" &&  $password == "EpicPassword"){
+	if($username == "MrCool95" &&  $password == "bad"){
 		return True;
 	}
 	else{
@@ -41,6 +41,6 @@ if (isset($_POST['login']))
 <label for='password'>Password:</label>
 <input type='password' name='password'><br>
 <input type='submit' name='login' value='login'><br>
-username is<B> MrCoo195</B> password is<B> EpicPassword</B><br><br>
+username is<B> MrCoo195</B> password is<B> bad</B><br><br>
 </body>
 </html>
